@@ -1,6 +1,6 @@
-# astrbot-plugin-helloworld
+# astrbot-plugin-websocket-plug
 
-AstrBot 插件模板 / A template plugin for AstrBot plugin feature
+一个可以让astrbot与websocket服务端通信的插件
 
 > [!NOTE]
 > This repo is just a template of [AstrBot](https://github.com/AstrBotDevs/AstrBot) Plugin.
