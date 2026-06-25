@@ -1,0 +1,20 @@
+{
+    "ws_url": {
+        "type": "string",
+        "description": "WebSocket 服务器地址",
+        "default": "ws://localhost:8765",
+        "required": true
+    },
+    "reconnect_interval": {
+        "type": "float",
+        "description": "断线后重连间隔（秒）",
+        "default": 5.0,
+        "required": false
+    },
+    "heartbeat_interval": {
+        "type": "float",
+        "description": "心跳包发送间隔（秒），设为0则不启用心跳",
+        "default": 30.0,
+        "required": false
+    }
+}
